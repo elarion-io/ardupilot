@@ -30,7 +30,7 @@ jobs:
         board: [ELARIONH7V1, ELARIONH7V1SD]
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: 'recursive'
 
